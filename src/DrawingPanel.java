@@ -1,7 +1,7 @@
+import Draw_models.Picture;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 class DrawingPanel extends JFrame {
     private final int BACKGROUND_WIDTH = 1200;
@@ -26,7 +26,7 @@ class DrawingPanel extends JFrame {
         g2d . fillRect (0 , 0, BACKGROUND_WIDTH,
                 BACKGROUND_HEIGHT / 2 + 100) ;
 
-        new fly().draw(g2d, 10, 500);
+        new Picture().draw(g2d, 10, 500);
     }
 }
 

@@ -1,8 +1,10 @@
+package Draw_models;
+
 import java.awt.*;
 
-public class fly {
+public class Picture {
 
-    public fly() {
+    public Picture() {
 
     }
 
