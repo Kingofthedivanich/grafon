@@ -20,6 +20,10 @@ class DrawingPanel extends JFrame {
         drawList.add(obj);
     }
 
+    public void deleteObject(Drawable obj){
+        drawList.remove(obj);
+    }
+
     @Override
     public void paint ( Graphics g) {
         Graphics2D g2d = ( Graphics2D ) g;
